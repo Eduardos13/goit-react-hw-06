@@ -37,11 +37,22 @@
 
   background-color: blue;
   color: aliceblue;
+  font-size: 20px;
   border: none;
   border-radius: 20px;
+}
+
+.addBtn svg {
+  width: 35px;
+  height: 35px;
 }
 
 .addBtn:hover {
   cursor: pointer;
   background-color: rgb(12, 12, 137);
+}
+
+.ErrorMessage {
+  color: red;
+  margin-top: -20px;
 }

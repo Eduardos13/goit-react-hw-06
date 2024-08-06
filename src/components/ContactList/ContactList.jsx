@@ -14,7 +14,7 @@ const ContactList = () => {
   );
 
   return (
-    <ul>
+    <ul className={s.contactsList}>
       {filteredData.map((item) => (
         <li key={item.id}>
           <Contact item={item} />
